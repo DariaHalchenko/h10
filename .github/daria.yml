@@ -20,3 +20,5 @@ jobs:
             New push in repository: ${{ github.repository }}
             Author: ${{ github.event.pusher.name }}
             Message: ${{ github.event.head_commit.message }}
+
+            
