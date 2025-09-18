@@ -13,8 +13,8 @@ jobs:
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: "Push to ${{ github.repository }}"
-          to: "<email kuhu see saadab>"
-          from: "email kust saadab"
+          to: "daragalcenko3@gmail.com"
+          from: ${{ secrets.MAIL_USERNAME }}
           secure: true
           body: |
             New push in repository: ${{ github.repository }}
@@ -24,6 +24,7 @@ jobs:
 
 
 
-            
+
+
 
             
